@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "0.375rem",
-  "bottomRow": 33,
+  "bottomRow": 43,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
   "buttonStyle": "PRIMARY_BUTTON",
@@ -38,7 +38,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 62,
   "text": "Enviar",
-  "topRow": 29,
+  "topRow": 39,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "zsn0ovl7a4",

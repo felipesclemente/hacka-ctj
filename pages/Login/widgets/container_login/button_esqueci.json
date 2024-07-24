@@ -11,7 +11,11 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
@@ -25,6 +29,7 @@
   "mobileRightColumn": 56,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
+  "onClick": "{{showModal(modal_senha.name);}}",
   "parentColumnSpace": 17.9521484375,
   "parentId": "m1dglyv4hv",
   "parentRowSpace": 10,
