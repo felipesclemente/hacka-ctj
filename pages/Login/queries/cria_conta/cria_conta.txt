@@ -1,0 +1,4 @@
+{
+	"email": {{input_email_cadastro.text}},
+  "password": {{input_senha_cadastro.text}}
+}
