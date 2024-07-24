@@ -23,7 +23,7 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "ot45bs26vu",
+  "key": "od6udemep5",
   "leftColumn": 58,
   "minWidth": 50,
   "mobileBottomRow": 4,
@@ -32,13 +32,13 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "onClick": "{{closeModal(modal_cadastro.name);}}",
-  "parentId": "6jzomhu6rq",
+  "parentId": "5guu6c5coa",
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "topRow": 0,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "yfseqb97ma",
-  "widgetName": "fechar_modal"
+  "widgetId": "2acavj7b8b",
+  "widgetName": "IconButton1"
 }

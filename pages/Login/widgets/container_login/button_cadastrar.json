@@ -11,6 +11,7 @@
       "key": "buttonColor"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
