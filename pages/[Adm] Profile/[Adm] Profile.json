@@ -1,22 +1,23 @@
 {
-  "gitSyncId": "66a150c589fdf50135df575c_d7c5598d-1447-4343-a3a7-bbae3df3e596",
+  "gitSyncId": "66a150c589fdf50135df575c_ef8bb9f1-c31f-47aa-9795-152fa26beece",
   "unpublishedPage": {
+    "isHidden": true,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 720,
+          "bottomRow": 750,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 730,
+          "minHeight": 760,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 71,
+          "snapRows": 74,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 89,
@@ -25,7 +26,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "[Adm] Profile",
+    "slug": "adm-profile"
   }
 }

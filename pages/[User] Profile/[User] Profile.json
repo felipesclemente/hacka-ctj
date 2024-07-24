@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "66a150c589fdf50135df575c_d70bbff7-88b6-46ac-b28a-5218fb3eec0c",
+  "gitSyncId": "66a150c589fdf50135df575c_5b6dc49f-2c1f-485b-85d7-0a258d703ac3",
   "unpublishedPage": {
     "isHidden": true,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 560,
+          "bottomRow": 510,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 780,
+          "minHeight": 760,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 76,
+          "snapRows": 74,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 89,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Dashboard",
-    "slug": "dashboard"
+    "name": "[User] Profile",
+    "slug": "user-profile"
   }
 }

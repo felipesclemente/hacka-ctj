@@ -24,7 +24,11 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "[User] Profile",
+      "isDefault": false
+    },
+    {
+      "id": "[Adm] Profile",
       "isDefault": false
     }
   ],
