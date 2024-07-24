@@ -29,7 +29,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{cria_conta.run().then(() => {\n  showAlert('Sucesso! Um email de verificação foi enviado para a sua caixa de entrada.', 'success');\n  closeModal(modal_cadastro.name);\n});}}",
+  "onClick": "{{cria_conta.run().then(() => {\n  showAlert('Sucesso! Um email de verificação foi enviado para a sua caixa de entrada.', 'success');\n  closeModal(modal_cadastro.name);\n}).catch(() => {\n  showAlert('Houve um erro ao criar a conta, tente novamente', 'error');\n});}}",
   "parentId": "5guu6c5coa",
   "placement": "CENTER",
   "recaptchaType": "V3",
