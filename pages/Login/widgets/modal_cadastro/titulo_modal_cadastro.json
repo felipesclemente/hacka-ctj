@@ -14,6 +14,7 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1.25rem",
   "fontStyle": "BOLD",
@@ -35,7 +36,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 41,
   "shouldTruncate": false,
-  "text": "Modal Title",
+  "text": "Cadastro de novo usuário",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,
@@ -43,5 +44,5 @@
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "o2takdezf4",
-  "widgetName": "Text1"
+  "widgetName": "titulo_modal_cadastro"
 }

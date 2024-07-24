@@ -1,0 +1,1 @@
+INSERT INTO public.ongs ("created_at","nome","area_atuacao","descricao","imagem") VALUES ('{{(Table1.newRow || {}).created_at}}','{{(Table1.newRow || {}).nome}}','{{(Table1.newRow || {}).area_atuacao}}','{{(Table1.newRow || {}).descricao}}','{{(Table1.newRow || {}).imagem}}')

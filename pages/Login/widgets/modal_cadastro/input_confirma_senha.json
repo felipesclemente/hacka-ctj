@@ -3,7 +3,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 21,
+  "bottomRow": 29,
   "boxShadow": "none",
   "defaultText": "",
   "dynamicBindingPathList": [
@@ -12,10 +12,15 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
+  "errorMessage": "As senhas não conferem!",
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -23,7 +28,7 @@
   "isRequired": true,
   "isVisible": true,
   "key": "2k3rxcv5wv",
-  "label": "Informe a sua senha:",
+  "label": "Confirme a senha:",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -41,17 +46,15 @@
   "parentColumnSpace": 6.9375,
   "parentId": "5guu6c5coa",
   "parentRowSpace": 10,
-  "regex": "^(?=.*[A-Z])(?=.*\\d).{8,}$",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "showStepArrows": false,
-  "tooltip": "A senha deve ter pelo menos 8 caracteres, sendo ao menos uma letra maiúscula e ao menos um número",
-  "topRow": 14,
+  "topRow": 22,
   "type": "INPUT_WIDGET_V2",
-  "validation": "",
+  "validation": "{{input_senha_cadastro.text == input_confirma_senha.text}}",
   "version": 2,
-  "widgetId": "rf84fw4bb5",
-  "widgetName": "input_senha_cadastro"
+  "widgetId": "3a46627zpl",
+  "widgetName": "input_confirma_senha"
 }

@@ -1,0 +1,1 @@
+UPDATE public.ongs SET "created_at"= '{{Table1.updatedRow.created_at}}', "nome"= '{{Table1.updatedRow.nome}}', "area_atuacao"= '{{Table1.updatedRow.area_atuacao}}', "descricao"= '{{Table1.updatedRow.descricao}}', "imagem"= '{{Table1.updatedRow.imagem}}' WHERE "id"= {{Table1.updatedRow.id}};
