@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "66a150c589fdf50135df575c_6df20053-8b60-4bc4-8a0a-019c40e48309",
-  "id": "[Adm] Profile_Select_public_dados_usuarios1",
+  "gitSyncId": "66a150c589fdf50135df575c_4ccdcf79-2265-47a2-bee6-b6dffe8731a6",
+  "id": "Dashboard_inscrever_ong",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  public.dados_usuarios\nWHERE\n  \"nome_completo\" ilike '%{{Table1.searchText}}%'\nORDER BY\n  \"{{Table1.sortOrder.column || 'id'}}\" {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
+      "body": "INSERT INTO public.ongs_users(\"ong\",\"user\") VALUES ('{{Select1.text}}','{{appsmith.store.email}}');",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -28,8 +28,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Select_public_dados_usuarios1",
-    "pageId": "[Adm] Profile",
+    "name": "inscrever_ong",
+    "pageId": "Dashboard",
     "userSetOnLoad": false
   }
 }

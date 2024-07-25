@@ -1,0 +1,1 @@
+SELECT * FROM public.dados_usuarios WHERE email = {{appsmith.store.email}} AND admin = true

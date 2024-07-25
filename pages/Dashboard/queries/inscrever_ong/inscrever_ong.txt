@@ -1,0 +1,1 @@
+INSERT INTO public.ongs_users("ong","user") VALUES ('{{Select1.text}}','{{appsmith.store.email}}');

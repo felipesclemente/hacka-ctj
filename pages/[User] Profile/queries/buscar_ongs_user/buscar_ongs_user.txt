@@ -1,0 +1,1 @@
+SELECT ong FROM ongs_users WHERE ongs_users.user = '{{appsmith.store.email}}'

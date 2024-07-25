@@ -33,7 +33,7 @@
   "mobileRightColumn": 37,
   "mobileTopRow": 26,
   "needsErrorInfo": false,
-  "onClick": "{{valida_login.run().then(() => {\n    const token = valida_login.data.access_token;\n    storeValue(\"token\", token);\n    showAlert(\"Sucesso! Redirecionando...\", \"success\");\n    navigateTo(\"Dashboard\", {});\n  }).catch(() => {\n    showAlert(\"Erro! Verifique os dados informados.\", \"error\");\n  });}}",
+  "onClick": "{{valida_login.run().then(() => {\n    const token = valida_login.data.access_token;\n    storeValue(\"token\", token);\n\t\tconst email = input_email.text;\n\t\tstoreValue(\"email\", email);\n    showAlert(\"Sucesso! Redirecionando...\", \"success\");\n    navigateTo(\"Dashboard\", {});\n  }).catch(() => {\n    showAlert(\"Erro! Verifique os dados informados.\", \"error\");\n  });}}",
   "originalBottomRow": 35,
   "originalTopRow": 31,
   "parentColumnSpace": 18.880859375,

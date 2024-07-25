@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.ongs_users where ong ilike '%{{Table1.searchText}}%';

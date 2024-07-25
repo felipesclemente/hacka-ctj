@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66a150c589fdf50135df575c_6df20053-8b60-4bc4-8a0a-019c40e48309",
-  "id": "[Adm] Profile_Select_public_dados_usuarios1",
+  "gitSyncId": "66a150c589fdf50135df575c_39d77146-e6bb-4920-af7c-ee4ea66ff783",
+  "id": "[User] Profile_Select_public_ongs_users1",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  public.dados_usuarios\nWHERE\n  \"nome_completo\" ilike '%{{Table1.searchText}}%'\nORDER BY\n  \"{{Table1.sortOrder.column || 'id'}}\" {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  public.ongs_users\nWHERE\n  \"ong\" ilike '%{{Table1.searchText}}%'\nORDER BY\n  \"{{Table1.sortOrder.column || 'id'}}\" {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,8 +28,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Select_public_dados_usuarios1",
-    "pageId": "[Adm] Profile",
+    "name": "Select_public_ongs_users1",
+    "pageId": "[User] Profile",
     "userSetOnLoad": false
   }
 }
