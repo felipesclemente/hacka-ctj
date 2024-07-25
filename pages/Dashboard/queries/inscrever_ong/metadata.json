@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.ongs_users(\"ong\",\"user\") VALUES ('{{Select1.text}}','{{appsmith.store.email}}');",
+      "body": "INSERT INTO public.ongs_users(\"ong\",\"user\") VALUES ('{{Select1.selectedOptionValue}}','{{appsmith.store.email}}');",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
