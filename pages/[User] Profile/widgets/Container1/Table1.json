@@ -33,9 +33,10 @@
   },
   "columnOrder": [
     "customColumn1",
+    "ong",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1721948068392,
+  "columnUpdatedAt": 1721950278992,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -73,6 +74,9 @@
     },
     {
       "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.ong.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -205,6 +209,40 @@
       "notation": "standard",
       "originalId": "customColumn1",
       "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "ong": {
+      "alias": "ong",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ong\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "ong",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "ong",
+      "notation": "standard",
+      "originalId": "ong",
+      "sticky": "",
+      "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

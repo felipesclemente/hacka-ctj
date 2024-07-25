@@ -1,0 +1,1 @@
+SELECT nome FROM dados_usuarios WHERE dados_usuarios.email = '{{appsmith.user.email}}'

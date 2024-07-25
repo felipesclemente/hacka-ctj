@@ -35,7 +35,7 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{verifica_admin.run().then(() => { \n\tif (verifica_admin.data != null){\n\tshowModal(modal_cadastro.name);\n} else {\n\tshowAlert('Erro! Essa funcionalidade é restrita para administradores.', 'error');\n}\n  \n}).catch(() => {\n  showAlert('Erro! Essa funcionalidade é restrita para administradores.', 'error');\n});}}",
+  "onClick": "{{verifica_admin.run().then(() => { \n\tif (verifica_admin.data[0] != null) {\n\t\tshowModal(modal_cadastro.name);\n\t} else {\n\t\tshowAlert('Erro! Essa funcionalidade é \t\t\t\trestrita para administradores.', 'error');\n\t}\n}).catch(() => {\n  showAlert('Erro! Essa funcionalidade é restrita para administradores.', 'error');\n});}}",
   "parentColumnSpace": 17.97833251953125,
   "parentId": "472qap3rda",
   "parentRowSpace": 10,
