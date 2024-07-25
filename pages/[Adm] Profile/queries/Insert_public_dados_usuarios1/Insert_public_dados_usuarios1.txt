@@ -1,0 +1,1 @@
+INSERT INTO public.dados_usuarios ("created_at","admin","nome_completo") VALUES ('{{(Table1.newRow || {}).created_at}}','{{(Table1.newRow || {}).admin}}','{{(Table1.newRow || {}).nome_completo}}')

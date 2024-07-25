@@ -11,7 +11,12 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "log-out",
   "isDefaultClickDisabled": true,
@@ -26,6 +31,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
+  "onClick": "{{logout.logOut();}}",
   "parentColumnSpace": 18.880859375,
   "parentId": "b8otyt59ed",
   "parentRowSpace": 10,
