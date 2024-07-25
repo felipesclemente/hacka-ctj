@@ -11,7 +11,16 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "user",
   "isDefaultClickDisabled": true,
@@ -26,6 +35,7 @@
   "mobileRightColumn": 33,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
+  "onClick": "{{verifica_admin.run().then(() => { if (verifica_admin.data != null) {\n\tnavigateTo('[Adm] Profile', {}, 'SAME_WINDOW');\n} else {\n\tnavigateTo('[User] Profile', {}, 'SAME_WINDOW');\n}\n  \n});}}",
   "parentColumnSpace": 17.97833251953125,
   "parentId": "472qap3rda",
   "parentRowSpace": 10,

@@ -31,7 +31,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{passwordCheck.Button2onClick();}}",
+  "onClick": "",
   "originalBottomRow": 37,
   "originalTopRow": 33,
   "parentId": "lzpqf6c646",

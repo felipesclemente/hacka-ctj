@@ -1,1 +1,0 @@
-SELECT COUNT(*) from public.dados_usuarios where nome_completo ilike '%{{Table1.searchText}}%';

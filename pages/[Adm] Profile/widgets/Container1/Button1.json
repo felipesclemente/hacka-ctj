@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 45,
+  "bottomRow": 46,
   "boxShadow": "none",
   "buttonColor": "#e0dede",
   "buttonVariant": "PRIMARY",
@@ -41,7 +41,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 22,
   "text": "Clique aqui para adicionar ou editar ONGs",
-  "topRow": 40,
+  "topRow": 41,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "w7h0aejqmg",
