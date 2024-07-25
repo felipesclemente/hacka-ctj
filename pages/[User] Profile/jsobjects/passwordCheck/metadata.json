@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66a150c589fdf50135df575c_317dd2fc-caa1-4fa8-8238-ca9a69995cf1",
+  "id": "[User] Profile_passwordCheck",
+  "unpublishedCollection": {
+    "name": "passwordCheck",
+    "pageId": "[User] Profile",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

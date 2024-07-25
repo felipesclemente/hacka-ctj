@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "verifica_admin",
     "pageId": "Dashboard",
     "userSetOnLoad": true
