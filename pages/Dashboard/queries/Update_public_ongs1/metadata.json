@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE public.ongs SET \"created_at\"= '{{Table1.updatedRow.created_at}}', \"nome\"= '{{Table1.updatedRow.nome}}', \"area_atuacao\"= '{{Table1.updatedRow.area_atuacao}}', \"descricao\"= '{{Table1.updatedRow.descricao}}', \"imagem\"= '{{Table1.updatedRow.imagem}}' WHERE \"id\"= {{Table1.updatedRow.id}};",
+      "body": "UPDATE public.ongs SET \"created_at\"= '{{tabela_ongs.updatedRow.created_at}}', \"nome\"= '{{tabela_ongs.updatedRow.nome}}', \"area_atuacao\"= '{{tabela_ongs.updatedRow.area_atuacao}}', \"descricao\"= '{{tabela_ongs.updatedRow.descricao}}', \"imagem\"= '{{tabela_ongs.updatedRow.imagem}}' WHERE \"id\"= {{tabela_ongs.updatedRow.id}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

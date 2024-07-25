@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.ongs (\"created_at\",\"nome\",\"area_atuacao\",\"descricao\",\"imagem\") VALUES ('{{(Table1.newRow || {}).created_at}}','{{(Table1.newRow || {}).nome}}','{{(Table1.newRow || {}).area_atuacao}}','{{(Table1.newRow || {}).descricao}}','{{(Table1.newRow || {}).imagem}}')",
+      "body": "INSERT INTO public.ongs (\"created_at\",\"nome\",\"area_atuacao\",\"descricao\",\"imagem\") VALUES ('{{(tabela_ongs.newRow || {}).created_at}}','{{(tabela_ongs.newRow || {}).nome}}','{{(tabela_ongs.newRow || {}).area_atuacao}}','{{(tabela_ongs.newRow || {}).descricao}}','{{(tabela_ongs.newRow || {}).imagem}}')",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

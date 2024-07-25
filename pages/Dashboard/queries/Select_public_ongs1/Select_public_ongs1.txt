@@ -3,10 +3,10 @@ SELECT
 FROM
   public.ongs
 WHERE
-  "nome" ilike '%{{Table1.searchText}}%'
+  "nome" ilike '%{{tabela_ongs.searchText}}%'
 ORDER BY
-  "{{Table1.sortOrder.column || 'id'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+  "{{tabela_ongs.sortOrder.column || 'id'}}" {{tabela_ongs.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
-  {{Table1.pageSize}}
+  {{tabela_ongs.pageSize}}
 OFFSET
-  {{Table1.pageOffset}}
+  {{tabela_ongs.pageOffset}}

@@ -1,1 +1,1 @@
-SELECT COUNT(*) from public.ongs where nome ilike '%{{Table1.searchText}}%';
+SELECT COUNT(*) from public.ongs where nome ilike '%{{tabela_ongs.searchText}}%';
