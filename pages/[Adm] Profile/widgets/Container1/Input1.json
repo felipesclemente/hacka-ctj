@@ -5,7 +5,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 25,
   "boxShadow": "none",
-  "defaultText": "{{appsmith.user.username}}",
+  "defaultText": "{{buscar_nome.data}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,10 +14,10 @@
       "key": "borderRadius"
     },
     {
-      "key": "defaultText"
+      "key": "labelTextColor"
     },
     {
-      "key": "labelTextColor"
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",

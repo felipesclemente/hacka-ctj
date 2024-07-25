@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "66a150c589fdf50135df575c_5fa0d5a1-c729-466e-97cf-a0dd5d3b8b54",
-  "id": "[User] Profile_buscar_nome",
+  "gitSyncId": "66a150c589fdf50135df575c_21821ad4-ea49-43cb-9ba4-016d783244c9",
+  "id": "[Adm] Profile_buscar_nome",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
     ],
     "executeOnLoad": true,
     "name": "buscar_nome",
-    "pageId": "[User] Profile",
+    "pageId": "[Adm] Profile",
     "userSetOnLoad": false
   }
 }
