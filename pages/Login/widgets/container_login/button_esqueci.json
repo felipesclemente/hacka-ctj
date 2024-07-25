@@ -29,7 +29,7 @@
   "mobileRightColumn": 56,
   "mobileTopRow": 14,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(modal_senha.name).then(() => {\n  showAlert('Sucesso! Verifique a sua caixa de entrada.', 'success');\n}).catch(() => {\n  showAlert('Erro! Verifique os dados informados e tente novamente.', 'error');\n});}}",
+  "onClick": "{{showModal(modal_senha.name).then(() => {}).catch(() => {});}}",
   "parentColumnSpace": 17.9521484375,
   "parentId": "m1dglyv4hv",
   "parentRowSpace": 10,

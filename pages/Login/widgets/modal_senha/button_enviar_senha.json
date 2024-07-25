@@ -12,7 +12,11 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -25,6 +29,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onClick": "{{link_magico.run().then(() => {\n  showAlert('Sucesso! Verifique a sua caixa de entrada.', 'success');\n}).catch(() => {\n  showAlert('Erro! Verifique os dados informados e tente novamente.', 'error');\n});}}",
   "originalBottomRow": 24,
   "originalTopRow": 20,
   "parentId": "o5f2ybbm1n",
