@@ -13,6 +13,7 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
+  "errorMessage": "Informe um email válido!",
   "iconAlign": "left",
   "inputType": "EMAIL",
   "isDisabled": false,

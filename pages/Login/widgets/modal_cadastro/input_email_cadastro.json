@@ -39,7 +39,7 @@
   "parentColumnSpace": 6.9375,
   "parentId": "5guu6c5coa",
   "parentRowSpace": 10,
-  "regex": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+  "regex": "",
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
