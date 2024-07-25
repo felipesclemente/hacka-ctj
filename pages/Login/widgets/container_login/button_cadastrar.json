@@ -38,7 +38,7 @@
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": false,
+  "resetFormOnClick": true,
   "responsiveBehavior": "hug",
   "rightColumn": 57,
   "text": "Cadastrar uma nova conta",
