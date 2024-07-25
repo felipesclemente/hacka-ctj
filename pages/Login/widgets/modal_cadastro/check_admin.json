@@ -2,19 +2,21 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "alignWidget": "LEFT",
   "animateLoading": true,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderRadius": "0.375rem",
   "bottomRow": 38,
-  "defaultCheckedState": true,
+  "defaultCheckedState": false,
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onCheckChange"
+    }
+  ],
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
@@ -31,6 +33,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 35,
   "needsErrorInfo": false,
+  "onCheckChange": "",
   "originalBottomRow": 39,
   "originalTopRow": 34,
   "parentColumnSpace": 6.9375,

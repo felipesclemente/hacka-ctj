@@ -11,28 +11,22 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicTriggerPathList": [],
   "iconAlign": "left",
-  "iconName": "log-out",
+  "iconName": "user",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "2eajoppudy",
-  "leftColumn": 52,
+  "key": "mrd4pdd2b3",
+  "leftColumn": 39,
   "minWidth": 120,
-  "mobileBottomRow": 4,
-  "mobileLeftColumn": 47,
-  "mobileRightColumn": 63,
-  "mobileTopRow": 0,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 33,
+  "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Login', {}, 'SAME_WINDOW');}}",
-  "parentColumnSpace": 18.880859375,
+  "parentColumnSpace": 17.97833251953125,
   "parentId": "472qap3rda",
   "parentRowSpace": 10,
   "placement": "CENTER",
@@ -40,11 +34,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
-  "text": "Logout",
+  "rightColumn": 50,
+  "text": "Perfil do Usuário",
   "topRow": 2,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "klz9ybgi1b",
-  "widgetName": "button_logout"
+  "widgetId": "nqt24t5atr",
+  "widgetName": "Button2"
 }

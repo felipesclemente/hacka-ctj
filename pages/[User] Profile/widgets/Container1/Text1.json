@@ -42,7 +42,7 @@
   "shouldTruncate": false,
   "text": "ONGs em que você está cadastrado: ",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#ffffff",
   "topRow": 43,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

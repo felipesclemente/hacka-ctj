@@ -1,0 +1,5 @@
+{
+	"nome": {{input_nome_completo.text}},
+	"email": {{input_email_cadastro.text}},
+	"admin": "true"
+}

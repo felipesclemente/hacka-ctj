@@ -12,6 +12,11 @@
       "key": "buttonColor"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -29,12 +34,12 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{cria_conta.run().then(() => {\n  showAlert('Sucesso! Um email de verificação foi enviado para a sua caixa de entrada.', 'success');\n  closeModal(modal_cadastro.name);\n}).catch(() => {\n  showAlert('Houve um erro ao criar a conta, tente novamente!', 'error');\n});}}",
+  "onClick": "{{cria_conta.run().then(() => {\n  showAlert('Sucesso! Um email de verificação foi enviado para a sua caixa de entrada.', 'success');\n \nif (check_admin.isChecked){\n\tcadastro_admin.run()\n}\telse {\n\tcadastro_normal.run()\n}\n\t\t\t\tcloseModal(modal_cadastro.name);\n}).catch(() => {\n  showAlert('Houve um erro ao criar a conta, tente novamente!', 'error');\n});}}",
   "parentId": "5guu6c5coa",
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
-  "resetFormOnClick": false,
+  "resetFormOnClick": true,
   "responsiveBehavior": "hug",
   "rightColumn": 62,
   "text": "Enviar",
