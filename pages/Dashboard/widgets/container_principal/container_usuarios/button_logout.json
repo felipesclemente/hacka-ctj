@@ -41,7 +41,7 @@
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
   "rightColumn": 62,
-  "text": "Logout",
+  "text": "Efetuar Logout",
   "topRow": 2,
   "type": "BUTTON_WIDGET",
   "version": 1,

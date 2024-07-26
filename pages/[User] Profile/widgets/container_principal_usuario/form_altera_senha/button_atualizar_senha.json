@@ -28,7 +28,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "",
+  "onClick": "{{reset_senha.run().then(() => {\n  showAlert('Sucesso! A sua senha foi redefinida.', 'success');\n}).catch(() => {\n  showAlert('Erro! Verifique os dados informados e tente novamente.', 'error');\n});}}",
   "originalBottomRow": 37,
   "originalTopRow": 33,
   "parentId": "lzpqf6c646",

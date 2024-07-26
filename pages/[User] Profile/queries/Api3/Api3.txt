@@ -1,1 +1,0 @@
-{"password": '{{input_confirma_senha.text}}'}

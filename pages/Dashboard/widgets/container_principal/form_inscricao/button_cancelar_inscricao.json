@@ -11,7 +11,11 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -24,8 +28,9 @@
   "mobileRightColumn": 46,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "originalBottomRow": 34,
-  "originalTopRow": 30,
+  "onClick": "{{resetWidget(\"form_inscricao\", true);}}",
+  "originalBottomRow": 30,
+  "originalTopRow": 26,
   "parentId": "0q0i2hpc2n",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -33,7 +38,7 @@
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
   "rightColumn": 45,
-  "text": "Reset",
+  "text": "Cancelar",
   "topRow": 26,
   "type": "BUTTON_WIDGET",
   "version": 1,

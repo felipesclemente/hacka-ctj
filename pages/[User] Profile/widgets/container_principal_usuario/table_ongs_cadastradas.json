@@ -32,10 +32,10 @@
     }
   },
   "columnOrder": [
-    "nome",
+    "ong",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1722023668250,
+  "columnUpdatedAt": 1722026315696,
   "columnWidthMap": {},
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": 0,
@@ -72,7 +72,7 @@
       "key": "tableData"
     },
     {
-      "key": "primaryColumns.nome.computedValue"
+      "key": "primaryColumns.ong.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -178,20 +178,20 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "nome": {
-      "alias": "nome",
+    "ong": {
+      "alias": "ong",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{table_ongs_cadastradas.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"nome\"]))}}",
+      "computedValue": "{{table_ongs_cadastradas.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"ong\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
       "fontStyle": "",
       "horizontalAlignment": "LEFT",
-      "id": "nome",
+      "id": "ong",
       "index": 0,
       "isCellEditable": false,
       "isCellVisible": true,
@@ -201,9 +201,9 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "Nome da Instituição",
+      "label": "Nome da instituição",
       "notation": "standard",
-      "originalId": "nome",
+      "originalId": "ong",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",

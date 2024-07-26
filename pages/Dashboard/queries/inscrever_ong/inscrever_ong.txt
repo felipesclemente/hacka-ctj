@@ -1,1 +1,1 @@
-INSERT INTO public.ongs_users("ong","user") VALUES ('{{select_ong_inscricao.selectedOptionValue}}','{{appsmith.store.email}}');
+INSERT INTO public.ongs_users (ong, usuario) VALUES ({{select_ong_inscricao.selectedOptionValue}}, {{appsmith.store.email}})

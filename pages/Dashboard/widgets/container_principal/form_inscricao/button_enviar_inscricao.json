@@ -11,11 +11,7 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -33,9 +29,9 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{inscrever_ong.run()}}",
-  "originalBottomRow": 34,
-  "originalTopRow": 30,
+  "onClick": "{{inscrever_ong.run().then(() => {\n  showAlert('Sucesso! A sua canditura foi enviada.', 'success');\n}).catch(() => {\n  showAlert('Erro! Verifique os dados e tente novamente.', 'error');\n});}}",
+  "originalBottomRow": 30,
+  "originalTopRow": 26,
   "parentId": "0q0i2hpc2n",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -43,7 +39,7 @@
   "resetFormOnClick": true,
   "responsiveBehavior": "hug",
   "rightColumn": 62,
-  "text": "Submit",
+  "text": "Enviar",
   "topRow": 26,
   "type": "BUTTON_WIDGET",
   "version": 1,

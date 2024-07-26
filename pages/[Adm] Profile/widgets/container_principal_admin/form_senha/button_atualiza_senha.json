@@ -11,7 +11,11 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -24,6 +28,7 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
+  "onClick": "{{reset_senha.run().then(() => {\n  showAlert('Sucesso! A sua senha foi redefinida.', 'success');\n}).catch(() => {\n  showAlert('Erro! Verifique os dados informados e tente novamente.', 'error');\n});}}",
   "originalBottomRow": 37,
   "originalTopRow": 33,
   "parentId": "l6jlr0soap",

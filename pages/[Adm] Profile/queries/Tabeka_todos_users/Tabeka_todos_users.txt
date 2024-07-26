@@ -1,1 +1,1 @@
-SELECT * FROM dados_usuarios
+SELECT * FROM dados_usuarios ORDER BY id
