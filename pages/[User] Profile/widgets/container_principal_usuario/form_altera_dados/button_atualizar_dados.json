@@ -28,7 +28,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onClick": "{{update_dados_cadastrais.run().then(() => {\n  showAlert('Dados Atualizados', 'success');\n}).catch(() => {\n  showAlert('A atualização falhou', 'error');\n});}}",
+  "onClick": "{{update_dados_cadastrais.run().then(() => {\n  showAlert('Sucesso! Seus dados foram atualizados.', 'success');\n}).catch(() => {\n  showAlert('Erro! Verifique os dados informados e tente novamente.', 'error');\n});}}",
   "originalBottomRow": 35,
   "originalTopRow": 31,
   "parentColumnSpace": 15.166015625,
