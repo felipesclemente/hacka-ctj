@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66a150c589fdf50135df575c_0f08f058-ba7b-4ee8-bf96-b2263ae2d7af",
-  "id": "[User] Profile_buscar_ongs_user",
+  "gitSyncId": "66a150c589fdf50135df575c_925131f7-0e66-487c-912f-f763a2dbcf03",
+  "id": "[User] Profile_update_dados_cadastrais",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT nome FROM dados_usuarios WHERE dados_usuarios.email = '{{appsmith.store.email}}'",
+      "body": "UPDATE public.dados_usuarios\nSET \"nome\" = '{{Input1.text}}', \"email\" = '{{Input1Copy.text}}'\nWHERE \"email\" = '{{appsmith.store.email}}';\n\n\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
-    "name": "buscar_ongs_user",
+    "executeOnLoad": false,
+    "name": "update_dados_cadastrais",
     "pageId": "[User] Profile",
     "userSetOnLoad": false
   }

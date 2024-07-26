@@ -1,0 +1,5 @@
+UPDATE public.dados_usuarios
+SET "nome" = '{{Input1.text}}', "email" = '{{Input1Copy.text}}'
+WHERE "email" = '{{appsmith.store.email}}';
+
+

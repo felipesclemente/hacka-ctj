@@ -2,19 +2,13 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "autoFocus": false,
-  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 29,
+  "borderRadius": "0.375rem",
+  "bottomRow": 20,
   "boxShadow": "none",
-  "defaultText": "{{appsmith.store.email}}",
+  "defaultText": "",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
-    },
-    {
-      "key": "borderRadius"
-    },
-    {
-      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -25,12 +19,11 @@
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "8xqqzruf8k",
-  "label": "Email cadastrado",
+  "key": "bvgl0rsdra",
+  "label": "Área de atuação:",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
-  "labelTextColor": "#ffffff",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
   "leftColumn": 1,
@@ -38,23 +31,21 @@
   "minDynamicHeight": 4,
   "minWidth": 450,
   "mobileBottomRow": 24,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 21,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 57,
   "mobileTopRow": 17,
   "needsErrorInfo": false,
-  "originalBottomRow": 29,
-  "originalTopRow": 22,
-  "parentColumnSpace": 15.166015625,
-  "parentId": "53vpbq8yvp",
+  "parentColumnSpace": 6.9375,
+  "parentId": "j1wk266npo",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 21,
+  "rightColumn": 62,
   "showStepArrows": false,
-  "topRow": 22,
+  "topRow": 13,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "qvjpiicb0p",
-  "widgetName": "Input1Copy"
+  "widgetId": "ttvhcbk2do",
+  "widgetName": "input_cadastro_area"
 }

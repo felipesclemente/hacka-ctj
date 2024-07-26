@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66a150c589fdf50135df575c_0f08f058-ba7b-4ee8-bf96-b2263ae2d7af",
-  "id": "[User] Profile_buscar_ongs_user",
+  "gitSyncId": "66a150c589fdf50135df575c_8747cacf-19b2-4991-9416-9733a4e70a4d",
+  "id": "Dashboard_insert_ong",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT nome FROM dados_usuarios WHERE dados_usuarios.email = '{{appsmith.store.email}}'",
+      "body": "INSERT INTO public.ongs SET \n(nome, area_atuacao, descricao, localizacao, contato, imagem)\nVALUES ({{input_cadastro_nome.text}}, {{input_cadastro_area.text}}, {{input_cadastro_desc.text}}, {{input_cadastro_loc.text}}, {{input_cadastro_contato.text}}, {{input_cadastro_logo.text}})",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
-    "name": "buscar_ongs_user",
-    "pageId": "[User] Profile",
+    "executeOnLoad": false,
+    "name": "insert_ong",
+    "pageId": "Dashboard",
     "userSetOnLoad": false
   }
 }

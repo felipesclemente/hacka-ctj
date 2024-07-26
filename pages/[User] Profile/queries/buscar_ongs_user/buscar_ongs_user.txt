@@ -1,1 +1,1 @@
-SELECT ong FROM ongs_users WHERE ongs_users.user = '{{appsmith.store.email}}'
+SELECT nome FROM dados_usuarios WHERE dados_usuarios.email = '{{appsmith.store.email}}'
