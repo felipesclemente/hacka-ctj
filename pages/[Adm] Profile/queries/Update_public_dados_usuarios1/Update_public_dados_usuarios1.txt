@@ -1,1 +1,1 @@
-UPDATE public.dados_usuarios SET "created_at"= '{{tabela_users.updatedRow.created_at}}', "admin"= '{{tabela_users.updatedRow.admin}}', "nome_completo"= '{{tabela_users.updatedRow.nome_completo}}' WHERE "id"= {{tabela_users.updatedRow.id}};
+UPDATE public.dados_usuarios SET admin= {{tabela_users.updatedRow.admin}}, nome= '{{tabela_users.updatedRow.nome}}' WHERE "id"= {{tabela_users.updatedRow.id}};

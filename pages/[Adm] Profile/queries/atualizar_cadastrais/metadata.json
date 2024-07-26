@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "66a150c589fdf50135df575c_925131f7-0e66-487c-912f-f763a2dbcf03",
-  "id": "[User] Profile_update_dados_cadastrais",
+  "gitSyncId": "66a150c589fdf50135df575c_a81d4493-e60a-41ee-8c74-d1038088b4e6",
+  "id": "[Adm] Profile_atualizar_cadastrais",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE public.dados_usuarios\nSET nome = {{input_nome_cadastro.text}}, email = {{input_email_cadastro.text}}\nWHERE email = {{appsmith.store.email}};\n\n\n",
+      "body": "UPDATE public.dados_usuarios\nSET nome = {{input_nome_cadastro.text}}, email = {{input_email_cadastro.text}}\nWHERE email = {{appsmith.store.email}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,8 +28,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "update_dados_cadastrais",
-    "pageId": "[User] Profile",
+    "name": "atualizar_cadastrais",
+    "pageId": "[Adm] Profile",
     "userSetOnLoad": false
   }
 }

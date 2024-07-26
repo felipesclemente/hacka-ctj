@@ -1,5 +1,3 @@
 UPDATE public.dados_usuarios
 SET nome = {{input_nome_cadastro.text}}, email = {{input_email_cadastro.text}}
 WHERE email = {{appsmith.store.email}};
-
-
