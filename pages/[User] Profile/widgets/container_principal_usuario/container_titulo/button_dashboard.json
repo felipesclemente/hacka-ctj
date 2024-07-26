@@ -11,7 +11,11 @@
       "key": "buttonColor"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -24,6 +28,7 @@
   "mobileRightColumn": 57,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
+  "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 17.97833251953125,
   "parentId": "utycwvurq3",
   "parentRowSpace": 10,

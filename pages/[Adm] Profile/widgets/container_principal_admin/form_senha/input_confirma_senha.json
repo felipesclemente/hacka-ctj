@@ -12,10 +12,14 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
+  "errorMessage": "As senhas não conferem!",
   "iconAlign": "left",
   "inputType": "TEXT",
   "isDisabled": false,
@@ -23,7 +27,7 @@
   "isRequired": false,
   "isVisible": true,
   "key": "5v4lw877t5",
-  "label": "Confirme sua Nova Senha",
+  "label": "Confirme a nova senha:",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
@@ -50,6 +54,7 @@
   "showStepArrows": false,
   "topRow": 12,
   "type": "INPUT_WIDGET_V2",
+  "validation": "{{input_nova_senha.text == input_confirma_senha.text}}",
   "version": 2,
   "widgetId": "9xcdg8vmw5",
   "widgetName": "input_confirma_senha"
