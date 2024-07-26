@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  auth.users\nWHERE\n  \"email\" ilike '%{{Table1.searchText}}%'\nORDER BY\n  \"{{Table1.sortOrder.column || 'id'}}\" {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  auth.users\nWHERE\n  \"email\" ilike '%{{tabela_users.searchText}}%'\nORDER BY\n  \"{{tabela_users.sortOrder.column || 'id'}}\" {{tabela_users.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{tabela_users.pageSize}}\nOFFSET\n  {{tabela_users.pageOffset}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

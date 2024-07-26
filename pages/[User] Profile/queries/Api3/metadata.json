@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "",
+      "body": "{\"password\": '{{input_confirma_senha.text}}'}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {
@@ -30,7 +30,7 @@
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "paginationType": "NONE",
-      "path": "/auth/v1/user",
+      "path": "/auth/v1/user={{appsmith.store.email}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -49,6 +49,12 @@
     "dynamicBindingPathList": [
       {
         "key": "headers[1].value"
+      },
+      {
+        "key": "body"
+      },
+      {
+        "key": "path"
       }
     ],
     "executeOnLoad": false,

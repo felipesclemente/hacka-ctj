@@ -3,10 +3,10 @@ SELECT
 FROM
   public.ongs_users
 WHERE
-  "ong" ilike '%{{Table1.searchText}}%'
+  "ong" ilike '%{{table_ongs_cadastradas.searchText}}%'
 ORDER BY
-  "{{Table1.sortOrder.column || 'id'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+  "{{table_ongs_cadastradas.sortOrder.column || 'id'}}" {{table_ongs_cadastradas.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
-  {{Table1.pageSize}}
+  {{table_ongs_cadastradas.pageSize}}
 OFFSET
-  {{Table1.pageOffset}}
+  {{table_ongs_cadastradas.pageOffset}}

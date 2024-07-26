@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  public.ongs_users\nWHERE\n  \"ong\" ilike '%{{Table1.searchText}}%'\nORDER BY\n  \"{{Table1.sortOrder.column || 'id'}}\" {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  public.ongs_users\nWHERE\n  \"ong\" ilike '%{{table_ongs_cadastradas.searchText}}%'\nORDER BY\n  \"{{table_ongs_cadastradas.sortOrder.column || 'id'}}\" {{table_ongs_cadastradas.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{table_ongs_cadastradas.pageSize}}\nOFFSET\n  {{table_ongs_cadastradas.pageOffset}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

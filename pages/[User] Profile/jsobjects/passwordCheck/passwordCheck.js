@@ -1,7 +1,7 @@
 export default {
   Button2onClick () {
-    var fieldValue1 = Input2Copy.text; 
-    var fieldValue2 = Input2.text; 
+    var fieldValue1 = input_confirma_senha.text; 
+    var fieldValue2 = input_senha.text; 
 
     // Function to check if values are equal
     function areFieldsEqual() {

@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT COUNT(*) from auth.users where email ilike '%{{Table1.searchText}}%';",
+      "body": "SELECT COUNT(*) from auth.users where email ilike '%{{tabela_users.searchText}}%';",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

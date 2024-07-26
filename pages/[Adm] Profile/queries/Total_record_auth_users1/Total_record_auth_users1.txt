@@ -1,1 +1,1 @@
-SELECT COUNT(*) from auth.users where email ilike '%{{Table1.searchText}}%';
+SELECT COUNT(*) from auth.users where email ilike '%{{tabela_users.searchText}}%';

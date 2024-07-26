@@ -1,1 +1,1 @@
-INSERT INTO public.ongs_users ("created_at","ong","user") VALUES ('{{(Table1.newRow || {}).created_at}}','{{(Table1.newRow || {}).ong}}','{{(Table1.newRow || {}).user}}')
+INSERT INTO public.ongs_users ("created_at","ong","user") VALUES ('{{(table_ongs_cadastradas.newRow || {}).created_at}}','{{(table_ongs_cadastradas.newRow || {}).ong}}','{{(table_ongs_cadastradas.newRow || {}).user}}')

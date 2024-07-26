@@ -3,10 +3,10 @@ SELECT
 FROM
   auth.users
 WHERE
-  "email" ilike '%{{Table1.searchText}}%'
+  "email" ilike '%{{tabela_users.searchText}}%'
 ORDER BY
-  "{{Table1.sortOrder.column || 'id'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+  "{{tabela_users.sortOrder.column || 'id'}}" {{tabela_users.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
-  {{Table1.pageSize}}
+  {{tabela_users.pageSize}}
 OFFSET
-  {{Table1.pageOffset}}
+  {{tabela_users.pageOffset}}

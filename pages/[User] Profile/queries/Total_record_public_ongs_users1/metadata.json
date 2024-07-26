@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT COUNT(*) from public.ongs_users where ong ilike '%{{Table1.searchText}}%';",
+      "body": "SELECT COUNT(*) from public.ongs_users where ong ilike '%{{table_ongs_cadastradas.searchText}}%';",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
