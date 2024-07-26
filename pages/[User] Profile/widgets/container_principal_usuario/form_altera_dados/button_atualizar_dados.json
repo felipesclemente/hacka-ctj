@@ -28,7 +28,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 39,
   "needsErrorInfo": false,
-  "onClick": "{{update_dados_cadastrais.run().then(() => {\n  showAlert('Sucesso! Seus dados foram atualizados.', 'success');\n}).catch(() => {\n  showAlert('Erro! Verifique os dados informados e tente novamente.', 'error');\n});}}",
+  "onClick": "{{update_dados_cadastrais.run().then(() => {\n  showAlert('Sucesso! Seus dados foram atualizados.', 'success');\n  buscar_nome.run();\n  resetWidget(\"input_nome_cadastro\", true);\n  storeValue('email', input_email_cadastro.text);\n  resetWidget(\"input_email_cadastro\", true);\n}).catch(() => {\n  showAlert('Erro! Verifique os dados informados e tente novamente.', 'error');\n});}}",
   "originalBottomRow": 35,
   "originalTopRow": 31,
   "parentColumnSpace": 15.166015625,

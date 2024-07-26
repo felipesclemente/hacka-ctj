@@ -11,6 +11,7 @@
       "key": "buttonColor"
     }
   ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -28,9 +29,9 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "onClick": "{{atualizar_cadastrais.run().then(() => {\n  showAlert('Sucesso! Dados cadastrais atualizados.', 'success');\n}).catch(() => {\n  showAlert('Erro! Verifique os dados informados e tente novamente.', 'error');\n});}}",
-  "originalBottomRow": 37,
-  "originalTopRow": 33,
+  "onClick": "{{atualizar_cadastrais.run().then(() => {\n  showAlert('Sucesso! Dados cadastrais atualizados.', 'success');\n  buscar_nome.run();\n  resetWidget(\"input_nome_cadastro\", true);\n}).catch(() => {\n  showAlert('Erro! Verifique os dados informados e tente novamente.', 'error');\n});}}",
+  "originalBottomRow": 24,
+  "originalTopRow": 20,
   "parentId": "1ey7rt1vpn",
   "placement": "CENTER",
   "recaptchaType": "V3",

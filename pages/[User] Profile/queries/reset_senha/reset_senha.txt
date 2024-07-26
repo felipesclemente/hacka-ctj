@@ -1,4 +1,3 @@
 {
-	"email": {{appsmith.store.email}},
 	"password": {{input_confirma_senha.text}}
 }
