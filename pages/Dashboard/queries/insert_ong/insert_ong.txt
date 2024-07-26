@@ -1,3 +1,3 @@
-INSERT INTO public.ongs SET 
+INSERT INTO public.ongs 
 (nome, area_atuacao, descricao, localizacao, contato, imagem)
 VALUES ({{input_cadastro_nome.text}}, {{input_cadastro_area.text}}, {{input_cadastro_desc.text}}, {{input_cadastro_loc.text}}, {{input_cadastro_contato.text}}, {{input_cadastro_logo.text}})

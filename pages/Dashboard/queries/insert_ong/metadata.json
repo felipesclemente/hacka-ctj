@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.ongs SET \n(nome, area_atuacao, descricao, localizacao, contato, imagem)\nVALUES ({{input_cadastro_nome.text}}, {{input_cadastro_area.text}}, {{input_cadastro_desc.text}}, {{input_cadastro_loc.text}}, {{input_cadastro_contato.text}}, {{input_cadastro_logo.text}})",
+      "body": "INSERT INTO public.ongs \n(nome, area_atuacao, descricao, localizacao, contato, imagem)\nVALUES ({{input_cadastro_nome.text}}, {{input_cadastro_area.text}}, {{input_cadastro_desc.text}}, {{input_cadastro_loc.text}}, {{input_cadastro_contato.text}}, {{input_cadastro_logo.text}})",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
